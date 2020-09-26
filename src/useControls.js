@@ -62,10 +62,9 @@ const useControls = (props) => {
       const { id, label } = item;
 
       return (
-        <div>
+        <div key={id}>
           <Control
             {...item}
-            key={id}
             value={values[camelCase(label)]}
             eventHandler={eventHandler}
           />

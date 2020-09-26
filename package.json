@@ -1,6 +1,6 @@
 {
   "name": "@osequi/use-controls",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "React hook to visually change props",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,19 @@
     "url": "https://github.com/osequi/use-controls/issues"
   },
   "homepage": "https://github.com/osequi/use-controls#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
     "@material-ui/core": "^4.11.0",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.11.0",
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
